@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plan2"
+    tools:context="com.example.safam.myapplication.Chap3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/buttonvid"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Vous allez découvrir des vidéos éductives pour le domaine Finance/Banque."
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonvid"
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/custom_button"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Découvrir les Vidéos"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+</RelativeLayout>

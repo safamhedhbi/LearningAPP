@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".90"
+    android:background="@drawable/plan2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.safam.myapplication.Choix_CQE">
+
+
+    <Button
+        android:id="@+id/cours"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="COURS"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/quiz"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cours"
+        android:layout_alignStart="@+id/cours"
+        android:layout_below="@+id/cours"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="QUIZ"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/exam"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/quiz"
+        android:layout_alignRight="@+id/quiz"
+        android:layout_below="@+id/quiz"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/custom_button"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="EXAMEN"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+
+</RelativeLayout>

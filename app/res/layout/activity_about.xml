@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha=".90"
+    android:background="@drawable/plan2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.safam.myapplication.About">
+
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Here will be the question text"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:text="ABOUT :"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/bvmt"
+        android:layout_width="90dp"
+        android:layout_height="95dp"
+
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:background="@drawable/bvmt" />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:background="@drawable/fb" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/fb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/fb"
+        android:layout_marginBottom="105dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:text="Groupe \n Facebook"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/fb"
+        android:layout_toStartOf="@+id/fb"
+        android:text="Site de la Bourse de Tunis"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
+
+

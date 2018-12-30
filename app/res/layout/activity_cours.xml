@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plan2"
+    tools:context="com.example.safam.myapplication.Cours">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:elevation="10dp"
+        android:id="@+id/appbarid">
+
+    ></android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        android:id="@+id/tablayout_id"
+        app:tabTextColor="#fff"
+        app:tabIndicatorColor="@color/colorPrimaryDark"
+        android:background="@color/colorButtonNormal" />
+    
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager_id"
+        ></android.support.v4.view.ViewPager>
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

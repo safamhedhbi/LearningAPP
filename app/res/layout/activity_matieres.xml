@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:alpha=".90"
+android:background="@drawable/plan2"
+android:focusable="true"
+android:focusableInTouchMode="true"
+tools:context="com.example.safam.myapplication.Matieres">
+
+
+<Button
+    android:id="@+id/finance"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="90dp"
+    android:background="@drawable/custom_button"
+    android:foreground="?attr/selectableItemBackground"
+    android:text="informatique financière"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="72dp" />
+
+<Button
+    android:id="@+id/pf"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/finance"
+    android:layout_alignStart="@+id/finance"
+    android:layout_below="@+id/finance"
+    android:layout_marginTop="75dp"
+    android:background="@drawable/custom_button"
+    android:foreground="?attr/selectableItemBackground"
+    android:text="PROGICIEL FINANCIER"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="72dp" />
+
+<Button
+    android:id="@+id/mf"
+    android:layout_width="299dp"
+    android:layout_height="wrap_content"
+    android:layout_alignEnd="@+id/pf"
+    android:layout_alignRight="@+id/pf"
+    android:layout_below="@+id/pf"
+    android:layout_marginTop="75dp"
+    android:background="@drawable/custom_button"
+    android:foreground="?attr/selectableItemBackground"
+    android:text="modelisation financière"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="72dp" />
+
+
+</RelativeLayout>
